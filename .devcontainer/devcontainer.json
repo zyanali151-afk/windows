@@ -1,8 +1,10 @@
 {
-  "name": "Windows 11 Pro",
+  "name": "Windows Tiny11",
   "service": "windows",
   "containerEnv": {
-    "VERSION": "11"
+    "VERSION": "tiny11",
+    "DISK_SIZE": "20G",
+    "RAM_SIZE": "4G"
   },
   "forwardPorts": [8006],
   "portsAttributes": {
